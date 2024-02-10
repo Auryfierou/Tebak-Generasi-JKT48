@@ -1,0 +1,65 @@
+body {
+  font-family: "Fredoka";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #797979;
+}
+
+#quiz-container {
+  max-width: 600px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+#score-container {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+}
+
+#card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+#biodata-container {
+  border: 1px solid #ccc;
+  background-color: #b1b1b1;
+  font-weight: 200;
+  font-size: 19px;
+  text-align: start;
+}
+
+#bio {
+  margin-left: 1vh;
+  font-family: "Fredoka";
+}
+
+#choices-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.choice-btn {
+  height: 4vh;
+  width: 13vh;
+  border-radius: 5px;
+  margin: 1%;
+  border: 1px solid #c69749;
+  color: #c69749;
+  transition: ease-in-out 0.3s;
+  background-color: #797979;
+}
+
+.choice-btn:hover {
+  color: #fff;
+  box-shadow: 0 0 10px 1px #d3d3d3;
+  background-color: #c69749;
+  transition: ease-in-out 0.3s;
+}
